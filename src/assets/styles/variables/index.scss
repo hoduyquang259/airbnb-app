@@ -1,0 +1,24 @@
+:root {
+  /* Colors */
+  --first-color: #ff385c;
+  --black-color: #222222;
+  --white-color: #ffffff;
+
+  /* Typical Device Breakpoints */
+  --small-devices: 600px;
+  --medium-devices: 768px;
+  --large-devices: 992px;
+  --extra-devices: 1200px;
+
+  /* used to define z-index */
+  --zIndex-search-bar: 990;
+  --zIndex-dropdown: 1000;
+  --zIndex-sticky: 1020;
+  --zIndex-fixed: 1030;
+  --zIndex-modal-backdrop: 1040;
+  --zIndex-off-canvas: 1050;
+  --zIndex-modal: 1060;
+  --zIndex-popover: 1070;
+  --zIndex-alert: 1075;
+  --zIndex-tooltip: 1080;
+}

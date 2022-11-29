@@ -1,0 +1,63 @@
+@import './assets/styles/index.scss';
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+*:focus {
+    outline: none;
+  }
+  
+  /* Width Scroll */
+  ::-webkit-scrollbar {
+    width: 18px;
+    height: 18px;
+  }
+  
+  /* Track Scroll */
+  ::-webkit-scrollbar-track {
+    background: #ffffff;
+  }
+  
+  /* Handle Scroll */
+  ::-webkit-scrollbar-thumb {
+    border: 6px solid transparent;
+    background: #dfe1e3;
+    border-radius: 11px;
+    background-clip: padding-box;
+  
+    &:hover {
+      border: 6px solid transparent;
+      background: #a5a8aa;
+      border-radius: 11px;
+      background-clip: padding-box;
+    }
+  }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  margin-bottom: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
